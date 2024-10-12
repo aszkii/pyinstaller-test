@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build standalone",
+        "type": "shell",
+        "command": "rye run python scripts/build_standalone.py",
+      },
+      {
+        "label": "Check standalone",
+        "type": "shell",
+        "command": "rye run python scripts/check_standalone.py",
+      },
+    ]
+  }
