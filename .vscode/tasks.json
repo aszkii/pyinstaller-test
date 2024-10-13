@@ -2,6 +2,11 @@
     "version": "2.0.0",
     "tasks": [
       {
+        "label": "Build wheel",
+        "type": "shell",
+        "command": "rye run python scripts/build_wheel.py",
+      },
+      {
         "label": "Build standalone",
         "type": "shell",
         "command": "rye run python scripts/build_standalone.py",
